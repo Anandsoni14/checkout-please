@@ -23,6 +23,11 @@ if __name__ == '__main__':
     checkout = Checkout(avail)
 
     checkout.add_item_to_bill()
+    total_bill = checkout.bill_please()
+    if type(total_bill) is int:
+        print(f"Please pay Rs.{total_bill}")
+    else:
+        print(total_bill)
 
 
 

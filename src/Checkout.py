@@ -11,8 +11,6 @@ class Checkout:
 
     def add_item_to_bill(self):
         self.billed_items = input("Add Items: ")
-        print(f"Please pay Rs.{self.bill_please()}")
-        return
 
     def per_item_total_price(self, item: str, total_qty: int):
         discounted_item_price = 0

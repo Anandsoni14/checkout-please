@@ -38,7 +38,7 @@ As provided by HR
 
 ## Usage
 
-### Setting Up the Inventory
+### Setting Up the Inventory and Running the application
 
 Run the `main.py` script to initialize the inventory with predefined items and prices:
 
