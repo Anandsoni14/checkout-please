@@ -40,10 +40,10 @@ As provided by HR
 
 ### Setting Up the Inventory
 
-Run the `setup_inventory.py` script to initialize the inventory with predefined items and prices:
+Run the `main.py` script to initialize the inventory with predefined items and prices:
 
 ```bash
-python setup_inventory.py
+python main.py
 ```
 
 This script will add the following items to the inventory:
